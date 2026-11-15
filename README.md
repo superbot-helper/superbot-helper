@@ -1,4 +1,4 @@
-![Superbot saves you time.](assets/superbot-card.png)
+![Superbot: unrestricted AI, fast, and private by default.](assets/superbot-card.png)
 
 # Superbot Helper
 
