@@ -11,7 +11,7 @@ Open-source contributions and coordinated security fixes by EZO Labs Security, t
 Advisories published by maintainers that credit this account as reporter.
 
 <p>
-  <img src="https://img.shields.io/badge/8%20credited%20advisories-3b6ef6?style=flat" alt="8 credited advisories" height="28">&nbsp;
+  <img src="https://img.shields.io/badge/9%20credited%20advisories-3b6ef6?style=flat" alt="9 credited advisories" height="28">&nbsp;
   <img src="https://img.shields.io/badge/highest%20severity%20high%207.8-e5534b?style=flat" alt="highest severity high 7.8" height="28">&nbsp;
   <a href="https://ezolabs.net/security"><img src="https://img.shields.io/badge/security%20page-30363d?style=flat" alt="security page" height="28"></a>
 </p>
@@ -25,6 +25,7 @@ Advisories published by maintainers that credit this account as reporter.
 | ![high 7.1](https://img.shields.io/badge/high%207.1-e5534b?style=flat) | [GHSA-4f49-pm8q-mx4f](https://github.com/christianhelle/refitter/security/advisories/GHSA-4f49-pm8q-mx4f) | [christianhelle/refitter](https://github.com/christianhelle/refitter)<br><sub><code>Refitter</code> · 420 stars</sub> | An escaped remote $ref resolves past the reference guard | 2.4.0 (preview) |
 | ![medium 5.9](https://img.shields.io/badge/medium%205.9-d29922?style=flat) | [GHSA-rrqw-wchp-m748](https://github.com/lxsmnsyc/seroval/security/advisories/GHSA-rrqw-wchp-m748) | [lxsmnsyc/seroval](https://github.com/lxsmnsyc/seroval)<br><sub><code>@seroval/transport</code> · 745 stars</sub> | The FormData plugin copies one shared entries list once per value, so a small message expands many times over | 0.1.3 |
 | ![medium 5.8](https://img.shields.io/badge/medium%205.8-d29922?style=flat) | [GHSA-3pp5-crfq-6grr](https://github.com/starman69/mcp-sanitizer/security/advisories/GHSA-3pp5-crfq-6grr) | [starman69/mcp-sanitizer](https://github.com/starman69/mcp-sanitizer)<br><sub><code>mcp-sanitizer</code> · 934 downloads/wk</sub> | SSRF bypass via IPv4-translated IPv6, NAT64 local-use, Teredo and reserved IPv4 ranges | 1.4.4 |
+| ![medium](https://img.shields.io/badge/medium-d29922?style=flat) | [GHSA-62vp-7jfh-9cch](https://github.com/Cubelrti/sm-crypto-v2/security/advisories/GHSA-62vp-7jfh-9cch) | [Cubelrti/sm-crypto-v2](https://github.com/Cubelrti/sm-crypto-v2)<br><sub><code>sm-crypto-v2</code> · 7.9k downloads/wk</sub> | SM2 verification accepts several DER encodings of one signature, so a valid signature can be resubmitted in a different form | 2.0.1 |
 | ![low 3.1](https://img.shields.io/badge/low%203.1-30363d?style=flat) | [GHSA-cp76-424m-6343](https://github.com/lowdefy/lowdefy/security/advisories/GHSA-cp76-424m-6343) | [lowdefy/lowdefy](https://github.com/lowdefy/lowdefy)<br><sub><code>@lowdefy/node-utils</code> · 5.1k downloads/wk</sub> | SSRF guard treats IPv4-translated addresses as public | 7.4.0 |
 
 More findings are with maintainers under coordinated disclosure and appear on the [security page](https://ezolabs.net/security) when the advisories publish.
