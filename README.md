@@ -8,7 +8,7 @@ Open-source contributions and coordinated security fixes by EZO Labs Security, t
 
 ## Security advisories
 
-Advisories published by maintainers that credit this account as reporter.
+Advisories published by maintainers that credit this account as reporter, and vendor notices that name EZO Labs Security.
 
 <p>
   <img src="https://img.shields.io/badge/24%20credited%20advisories-3b6ef6?style=flat" alt="24 credited advisories" height="28">&nbsp;
@@ -37,11 +37,19 @@ Advisories published by maintainers that credit this account as reporter.
 | ![medium 5.9](https://img.shields.io/badge/medium%205.9-d29922?style=flat) | [GHSA-rrqw-wchp-m748](https://github.com/lxsmnsyc/seroval/security/advisories/GHSA-rrqw-wchp-m748) | [lxsmnsyc/seroval](https://github.com/lxsmnsyc/seroval)<br><sub><code>@seroval/transport</code></sub> | The FormData plugin copies one shared entries list once per value, so a small message expands many times over | 0.1.3 |
 | ![medium 5.8](https://img.shields.io/badge/medium%205.8-d29922?style=flat) | [GHSA-3pp5-crfq-6grr](https://github.com/starman69/mcp-sanitizer/security/advisories/GHSA-3pp5-crfq-6grr) | [starman69/mcp-sanitizer](https://github.com/starman69/mcp-sanitizer)<br><sub><code>mcp-sanitizer</code></sub> | SSRF bypass via IPv4-translated IPv6, NAT64 local-use, Teredo and reserved IPv4 ranges | 1.4.4 |
 | ![medium 5.3](https://img.shields.io/badge/medium%205.3-d29922?style=flat) | [GHSA-9h7w-3q2r-24xf](https://github.com/JuneAndGreen/sm-crypto/security/advisories/GHSA-9h7w-3q2r-24xf) | [JuneAndGreen/sm-crypto](https://github.com/JuneAndGreen/sm-crypto)<br><sub><code>sm-crypto</code></sub> | SM2 signature verification accepts non-hexadecimal characters, so a valid signature has several accepted string forms | 0.5.9 |
-| ![medium 4.8](https://img.shields.io/badge/medium%204.8-d29922?style=flat) | [GHSA-56jq-34pf-p873](https://github.com/fastify/middie/security/advisories/GHSA-56jq-34pf-p873) | [fastify/middie](https://github.com/fastify/middie)<br><sub><code>@fastify/middie</code></sub> | A mount path with a doubled slash is not normalized before path-scoped middleware matches, so a request under it skips that middleware | 9.3.7 |
+| ![medium 4.8](https://img.shields.io/badge/medium%204.8-d29922?style=flat) | [GHSA-56jq-34pf-p873](https://github.com/fastify/middie/security/advisories/GHSA-56jq-34pf-p873)<br><sub>[CVE-2026-132133](https://www.cve.org/CVERecord?id=CVE-2026-132133)</sub> | [fastify/middie](https://github.com/fastify/middie)<br><sub><code>@fastify/middie</code></sub> | A mount path with a doubled slash is not normalized before path-scoped middleware matches, so a request under it skips that middleware | 9.3.7 |
 | ![low 3.5](https://img.shields.io/badge/low%203.5-30363d?style=flat) | [GHSA-5v5f-v9g9-v4gr](https://github.com/omnara-ai/omnara/security/advisories/GHSA-5v5f-v9g9-v4gr) | [omnara-ai/omnara](https://github.com/omnara-ai/omnara)<br><sub><code>omnara-ai/omnara</code></sub> | The SSRF guard treats IPv4-translated IPv6 addresses as public, so a fetch can reach an internal address | 0.2.24 |
 | ![low 3.4](https://img.shields.io/badge/low%203.4-30363d?style=flat) | [GHSA-4fx6-3h3f-fh66](https://github.com/intlify/vue-i18n/security/advisories/GHSA-4fx6-3h3f-fh66) | [intlify/vue-i18n](https://github.com/intlify/vue-i18n)<br><sub><code>vue-i18n</code>, <code>@intlify/core</code>, <code>@intlify/core-base</code>, <code>petite-vue-i18n</code>, <code>@intlify/vue-i18n-core</code></sub> | escapeParameter escapes only string parameters, so markup in an array or object reaches a translation rendered as HTML | 11.4.21 / 12.0.0-alpha.12 |
 | ![low 3.1](https://img.shields.io/badge/low%203.1-30363d?style=flat) | [GHSA-cp76-424m-6343](https://github.com/lowdefy/lowdefy/security/advisories/GHSA-cp76-424m-6343) | [lowdefy/lowdefy](https://github.com/lowdefy/lowdefy)<br><sub><code>@lowdefy/node-utils</code></sub> | SSRF guard treats IPv4-translated addresses as public | 7.4.0 |
 | ![medium](https://img.shields.io/badge/medium-d29922?style=flat) | [GHSA-62vp-7jfh-9cch](https://github.com/Cubelrti/sm-crypto-v2/security/advisories/GHSA-62vp-7jfh-9cch) | [Cubelrti/sm-crypto-v2](https://github.com/Cubelrti/sm-crypto-v2)<br><sub><code>sm-crypto-v2</code></sub> | SM2 verification accepts several DER encodings of one signature, so a valid signature can be resubmitted in a different form | 2.0.1 |
+
+<!-- vendor notices:begin -->
+**Vendor notices.** Public notices from vendors that name EZO Labs Security for a report. They are not advisories and are not counted above.
+
+| Notice | Project | What we reported |
+| --- | --- | --- |
+| [CVE-2026-114938](https://www.cve.org/CVERecord?id=CVE-2026-114938)<br><sub>[apolloconfig/apollo#5719](https://github.com/apolloconfig/apollo/discussions/5719)</sub> | [apolloconfig/apollo](https://github.com/apolloconfig/apollo)<br><sub><code>apollo-configservice</code>, <code>apollo-adminservice</code>, <code>apollo-portal</code></sub> | we reported to Apollo Config that its official 3.0.0 images ship the affected Java runtime, which decodes Basic headers before authentication; the CVE itself is OpenJDK's, and Apollo's public notice names EZO Labs Security as the reporter |
+<!-- vendor notices:end -->
 
 More findings are with maintainers under coordinated disclosure and appear on the [security page](https://ezolabs.net/security) when the advisories publish.
 
