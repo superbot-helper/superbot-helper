@@ -43,6 +43,12 @@ Advisories published by maintainers that credit this account as reporter, and ve
 | ![low 3.1](https://img.shields.io/badge/low%203.1-30363d?style=flat) | [GHSA-cp76-424m-6343](https://github.com/lowdefy/lowdefy/security/advisories/GHSA-cp76-424m-6343) | [lowdefy/lowdefy](https://github.com/lowdefy/lowdefy)<br><sub><code>@lowdefy/node-utils</code></sub> | SSRF guard treats IPv4-translated addresses as public | 7.4.0 |
 | ![medium](https://img.shields.io/badge/medium-d29922?style=flat) | [GHSA-62vp-7jfh-9cch](https://github.com/Cubelrti/sm-crypto-v2/security/advisories/GHSA-62vp-7jfh-9cch) | [Cubelrti/sm-crypto-v2](https://github.com/Cubelrti/sm-crypto-v2)<br><sub><code>sm-crypto-v2</code></sub> | SM2 verification accepts several DER encodings of one signature, so a valid signature can be resubmitted in a different form | 2.0.1 |
 
+<!-- cve records:begin -->
+**CVE records.** CVE ids assigned to findings we reported:
+
+[CVE-2026-132133](https://www.cve.org/CVERecord?id=CVE-2026-132133), [CVE-2026-99270](https://www.cve.org/CVERecord?id=CVE-2026-99270)
+<!-- cve records:end -->
+
 <!-- vendor notices:begin -->
 **Vendor notices.** Public notices from vendors that name EZO Labs Security for a report. They are not advisories and are not counted above.
 
