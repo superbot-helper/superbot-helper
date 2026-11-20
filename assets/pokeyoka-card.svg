@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 170" role="img" aria-labelledby="pokeyoka-card-title" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif'>
+  <title id="pokeyoka-card-title">pokeyoka: 39 credited advisories, highest severity 9.8, pokayoke.sh</title>
+  <rect x="0.5" y="0.5" width="959" height="169" rx="12" fill="#0B0F1A" stroke="#30363D" stroke-width="1"/>
+  <g transform="translate(46 55) scale(2.5)">
+    <path d="M8.1 3.9A9 9 0 0 0 8.1 20.1M15.9 3.9A9 9 0 0 1 15.9 20.1" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="12" cy="12" r="3.5" fill="#0B59FE"/>
+  </g>
+  <text x="122" y="99" font-size="40" font-weight="700" fill="#FFFFFF">pokeyoka</text>
+  <line x1="338" y1="54" x2="338" y2="116" stroke="#30363D" stroke-width="2"/>
+  <text x="380" y="93" font-size="52" font-weight="700" fill="#FFFFFF">39</text>
+  <text x="380" y="117" font-size="17" fill="#A8AAA6">credited advisories</text>
+  <line x1="546" y1="54" x2="546" y2="116" stroke="#30363D" stroke-width="2"/>
+  <text x="590" y="93" font-size="52" font-weight="700" fill="#FFFFFF">9.8</text>
+  <text x="590" y="117" font-size="17" fill="#A8AAA6">highest severity</text>
+  <rect x="746" y="53" width="190" height="64" rx="32" fill="#0B59FE"/>
+  <text x="841" y="93" font-size="23" font-weight="600" fill="#FFFFFF" text-anchor="middle">pokayoke.sh</text>
+</svg>

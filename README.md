@@ -1,10 +1,10 @@
-![Superbot: unrestricted AI, fast, and private by default.](assets/superbot-card.png)
+<a href="https://pokayoke.sh"><img src="assets/pokeyoka-card.svg" alt="pokeyoka, the exploit finder at pokayoke.sh" width="100%"></a>
 
 # Superbot Helper
 
 Open-source contributions and coordinated security fixes by EZO Labs Security, the security practice of EZO Labs Inc.
 
-[Superbot](https://superbot.gg) is your own AI agent, on desktop and phone. It is built by [EZO Labs Inc](https://ezolabs.io).
+The advisories below were found and proven by [pokeyoka](https://pokayoke.sh), our exploit finder. It is built by [EZO Labs Inc](https://ezolabs.io).
 
 ## Security advisories
 
