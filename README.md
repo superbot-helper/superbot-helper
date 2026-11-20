@@ -11,7 +11,7 @@ Open-source contributions and coordinated security fixes by EZO Labs Security, t
 Advisories published by maintainers that credit this account as reporter, and vendor notices that name EZO Labs Security.
 
 <p>
-  <img src="https://img.shields.io/badge/31%20credited%20advisories-3b6ef6?style=flat" alt="31 credited advisories" height="28">&nbsp;
+  <img src="https://img.shields.io/badge/32%20credited%20advisories-3b6ef6?style=flat" alt="32 credited advisories" height="28">&nbsp;
   <img src="https://img.shields.io/badge/highest%20severity%20critical%209.8-e5534b?style=flat" alt="highest severity critical 9.8" height="28">&nbsp;
   <a href="https://ezolabs.net/security"><img src="https://img.shields.io/badge/security%20page-30363d?style=flat" alt="security page" height="28"></a>
 </p>
@@ -48,6 +48,7 @@ Advisories published by maintainers that credit this account as reporter, and ve
 | ![low 3.5](https://img.shields.io/badge/low%203.5-30363d?style=flat) | [GHSA-5v5f-v9g9-v4gr](https://github.com/omnara-ai/omnara/security/advisories/GHSA-5v5f-v9g9-v4gr) | [omnara-ai/omnara](https://github.com/omnara-ai/omnara)<br><sub><code>omnara-ai/omnara</code></sub> | The SSRF guard treats IPv4-translated IPv6 addresses as public, so a fetch can reach an internal address | 0.2.24 |
 | ![low 3.4](https://img.shields.io/badge/low%203.4-30363d?style=flat) | [GHSA-4fx6-3h3f-fh66](https://github.com/intlify/vue-i18n/security/advisories/GHSA-4fx6-3h3f-fh66) | [intlify/vue-i18n](https://github.com/intlify/vue-i18n)<br><sub><code>vue-i18n</code>, <code>@intlify/core</code>, <code>@intlify/core-base</code>, <code>petite-vue-i18n</code>, <code>@intlify/vue-i18n-core</code></sub> | escapeParameter escapes only string parameters, so markup in an array or object reaches a translation rendered as HTML | 11.4.21 / 12.0.0-alpha.12 |
 | ![low 3.1](https://img.shields.io/badge/low%203.1-30363d?style=flat) | [GHSA-cp76-424m-6343](https://github.com/lowdefy/lowdefy/security/advisories/GHSA-cp76-424m-6343) | [lowdefy/lowdefy](https://github.com/lowdefy/lowdefy)<br><sub><code>@lowdefy/node-utils</code></sub> | SSRF guard treats IPv4-translated addresses as public | 7.4.0 |
+| ![high](https://img.shields.io/badge/high-e5534b?style=flat) | [GHSA-g2qc-2p87-h66h](https://github.com/Cubelrti/sm-crypto-v2/security/advisories/GHSA-g2qc-2p87-h66h) | [Cubelrti/sm-crypto-v2](https://github.com/Cubelrti/sm-crypto-v2)<br><sub><code>sm-crypto-v2</code></sub> | sm2.generateKeyPairHex(seed) returns the same SM2 key pair for every nonempty seed string accepted by BigInt, so the private key is always 1 and publicly known | 2.0.2 |
 | ![medium](https://img.shields.io/badge/medium-d29922?style=flat) | [GHSA-62vp-7jfh-9cch](https://github.com/Cubelrti/sm-crypto-v2/security/advisories/GHSA-62vp-7jfh-9cch) | [Cubelrti/sm-crypto-v2](https://github.com/Cubelrti/sm-crypto-v2)<br><sub><code>sm-crypto-v2</code></sub> | SM2 verification accepts several DER encodings of one signature, so a valid signature can be resubmitted in a different form | 2.0.1 |
 
 <!-- cve records:begin -->
