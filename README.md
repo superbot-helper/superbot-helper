@@ -8,10 +8,10 @@ Open-source contributions and coordinated security fixes by EZO Labs Security, t
 
 ## Security advisories
 
-Advisories published by maintainers that credit this account as reporter, and vendor notices that name EZO Labs Security.
+Advisories published by maintainers that credit this account, as reporter or, where marked, as analyst, and vendor notices that name EZO Labs Security.
 
 <p>
-  <img src="https://img.shields.io/badge/32%20credited%20advisories-3b6ef6?style=flat" alt="32 credited advisories" height="28">&nbsp;
+  <img src="https://img.shields.io/badge/33%20credited%20advisories-3b6ef6?style=flat" alt="33 credited advisories" height="28">&nbsp;
   <img src="https://img.shields.io/badge/highest%20severity%20critical%209.8-e5534b?style=flat" alt="highest severity critical 9.8" height="28">&nbsp;
   <a href="https://ezolabs.net/security"><img src="https://img.shields.io/badge/security%20page-30363d?style=flat" alt="security page" height="28"></a>
 </p>
@@ -43,6 +43,7 @@ Advisories published by maintainers that credit this account as reporter, and ve
 | ![medium 5.9](https://img.shields.io/badge/medium%205.9-d29922?style=flat) | [GHSA-rrqw-wchp-m748](https://github.com/lxsmnsyc/seroval/security/advisories/GHSA-rrqw-wchp-m748) | [lxsmnsyc/seroval](https://github.com/lxsmnsyc/seroval)<br><sub><code>@seroval/transport</code></sub> | The FormData plugin copies one shared entries list once per value, so a small message expands many times over | 0.1.3 |
 | ![medium 5.8](https://img.shields.io/badge/medium%205.8-d29922?style=flat) | [GHSA-3pp5-crfq-6grr](https://github.com/starman69/mcp-sanitizer/security/advisories/GHSA-3pp5-crfq-6grr) | [starman69/mcp-sanitizer](https://github.com/starman69/mcp-sanitizer)<br><sub><code>mcp-sanitizer</code></sub> | SSRF bypass via IPv4-translated IPv6, NAT64 local-use, Teredo and reserved IPv4 ranges | 1.4.4 |
 | ![medium 5.3](https://img.shields.io/badge/medium%205.3-d29922?style=flat) | [GHSA-9h7w-3q2r-24xf](https://github.com/JuneAndGreen/sm-crypto/security/advisories/GHSA-9h7w-3q2r-24xf) | [JuneAndGreen/sm-crypto](https://github.com/JuneAndGreen/sm-crypto)<br><sub><code>sm-crypto</code></sub> | SM2 signature verification accepts non-hexadecimal characters, so a valid signature has several accepted string forms | 0.5.9 |
+| ![medium 5.3](https://img.shields.io/badge/medium%205.3-d29922?style=flat) | [GHSA-r8wm-f869-fpw3](https://github.com/Chocobozzz/PeerTube/security/advisories/GHSA-r8wm-f869-fpw3) | [Chocobozzz/PeerTube](https://github.com/Chocobozzz/PeerTube) | An analyst credit, not a report, as superbot-helper on the advisory: the advisory was published from another reporter's finding; the vendor credited EZO Labs Security as an analyst on 20 Nov for a sibling of it, the icon array of a remote video | no fixed release yet |
 | ![medium 4.8](https://img.shields.io/badge/medium%204.8-d29922?style=flat) | [GHSA-56jq-34pf-p873](https://github.com/fastify/middie/security/advisories/GHSA-56jq-34pf-p873)<br><sub>[CVE-2026-132133](https://www.cve.org/CVERecord?id=CVE-2026-132133)</sub> | [fastify/middie](https://github.com/fastify/middie)<br><sub><code>@fastify/middie</code></sub> | A mount path with a doubled slash is not normalized before path-scoped middleware matches, so a request under it skips that middleware | 9.3.7 |
 | ![medium 4.3](https://img.shields.io/badge/medium%204.3-d29922?style=flat) | [GHSA-hg98-84jc-26px](https://github.com/opf/openproject/security/advisories/GHSA-hg98-84jc-26px) | [opf/openproject](https://github.com/opf/openproject) | An invitation mail renders its message as the inviter, so the subject of a private work package leaks to someone who cannot open it | 17.9.8 |
 | ![low 3.5](https://img.shields.io/badge/low%203.5-30363d?style=flat) | [GHSA-5v5f-v9g9-v4gr](https://github.com/omnara-ai/omnara/security/advisories/GHSA-5v5f-v9g9-v4gr) | [omnara-ai/omnara](https://github.com/omnara-ai/omnara)<br><sub><code>omnara-ai/omnara</code></sub> | The SSRF guard treats IPv4-translated IPv6 addresses as public, so a fetch can reach an internal address | 0.2.24 |
