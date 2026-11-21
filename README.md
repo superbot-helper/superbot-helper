@@ -1,10 +1,10 @@
-<a href="https://pokayoke.sh"><img src="assets/pokeyoka-card.svg" alt="pokeyoka, the exploit finder at pokayoke.sh" width="100%"></a>
+<a href="https://pokayoke.sh"><img src="assets/pokeyoka-card.svg" alt="pokayoke, the exploit finder at pokayoke.sh" width="100%"></a>
 
 # Superbot Helper
 
 Open-source contributions and coordinated security fixes by EZO Labs Security, the security practice of EZO Labs Inc.
 
-The advisories below were found and proven by [pokeyoka](https://pokayoke.sh), our exploit finder. It is built by [EZO Labs Inc](https://ezolabs.io).
+The advisories below were found and proven by [pokayoke](https://pokayoke.sh), our exploit finder. It is built by [EZO Labs Inc](https://ezolabs.io).
 
 ## Security advisories
 
