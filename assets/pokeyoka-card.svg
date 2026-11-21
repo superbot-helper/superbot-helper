@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 170" role="img" aria-labelledby="pokeyoka-card-title" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif'>
-  <title id="pokeyoka-card-title">pokeyoka: Find exploits before attackers do. 39 credited advisories, highest severity 9.8, pokayoke.sh</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 170" role="img" aria-labelledby="pokayoke-card-title" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif'>
+  <title id="pokayoke-card-title">pokayoke: Find exploits before attackers do. 39 credited advisories, highest severity 9.8, pokayoke.sh</title>
   <rect x="0.5" y="0.5" width="959" height="169" rx="12" fill="#FFFFFF" stroke="#D0D7DE" stroke-width="1"/>
   <g transform="translate(34 55) scale(2.5)">
     <path d="M8.1 3.9A9 9 0 0 0 8.1 20.1M15.9 3.9A9 9 0 0 1 15.9 20.1" fill="none" stroke="#111212" stroke-width="2.5" stroke-linecap="round"/>
     <circle cx="12" cy="12" r="3.5" fill="#0B59FE"/>
   </g>
-  <text x="106" y="84" font-size="40" font-weight="700" fill="#111212">pokeyoka</text>
+  <text x="106" y="84" font-size="40" font-weight="700" fill="#111212">pokayoke</text>
   <text x="106" y="111" font-size="15" fill="#6B6F76">Find exploits before attackers do.</text>
   <line x1="364" y1="54" x2="364" y2="116" stroke="#E6E4DE" stroke-width="2"/>
   <text x="398" y="93" font-size="52" font-weight="700" fill="#111212">39</text>
